@@ -1,6 +1,6 @@
 @extends('layouts.general_layout')
 
-@section('title', 'Privacy Risk Management')
+@section('title', 'VI. Privacy Risk Management')
 
 @section('content')
 
@@ -8,6 +8,280 @@
     <p>Welcome to the Privacy Risk Management</p>
 
     <p>!! Under Construction !!</p>
+    <p>For the purpose of this section, a risk refers to the potential of an incident to result in harm or danger 
+    to a data subject or organization. Risks are those that could lead to the unauthorized collection, use, 
+    disclosure or access to personal data. It includes risks that the confidentiality, integrity and availability 
+    of personal data will not be maintained, or the risk that processing will violate rights of data subjects 
+    or privacy principles (transparency, legitimacy and proportionality).</p>
+    <p>The first step in managing risks is to identify them, including threats and vulnerabilities, and by 
+    evaluating its impact and probability</p>
+    <p>The following definitions are used in this section,</p>
+    <p>Risk - “the potential for loss, damage or destruction as a result of a threat exploiting a 
+    vulnerability”;</p>
+    <p>Threat - “a potential cause of an unwanted incident, which may result in harm to a system or 
+    organization”;</p>
+    <p>Vulnerability - “a weakness of an asset or group of assets that can be exploited by one or more 
+    threats”;</p>
+    <p>Impact - severity of the injuries that might arise if the event does occur (can be ranked from trivial 
+    injuries to major injuries); and</p>
+    <p>Probability - chance or probability of something happening;</p>
+
+    <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Impact</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <thead>
+                    <tr>
+                      <th>Rating</th>
+                      <th>Types</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Negligible</td>
+                      <td>The data subjects will either not be affected or may encounter a few inconveniences, which they will overcome without any problem.</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Limited</td>
+                      <td>The data subject may encounter significant inconveniences, which they will be able to overcome despite a few difficulties.</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>Significant</td>
+                      <td>The data subjects may encounter significant inconveniences, which they should be able to overcome but with serious difficulties.</td>
+                    </tr>
+
+                    <tr>
+                      <td>4</td>
+                      <td>Maximum</td>
+                      <td>The data subjects may encounter significant inconveniences, or even irreversible, consequences, which they may not overcome.</td>
+                    </tr>
+
+
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Probability</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <thead>
+                    <tr>
+                      <th>Rating</th>
+                      <th>Types</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Unlikely</td>
+                      <td>Not expected, but there is a slight possibility it may occur at some time.</td>
+                    </tr>
+
+                    <tr>
+                      <td>2</td>
+                      <td>Possible</td>
+                      <td>Casual occurrence. It might happen at some time.</td>
+                    </tr>
+
+                    <tr>
+                      <td>3</td>
+                      <td>Likely</td>
+                      <td>Frequent occurrence. There is a strong possibility that it might occur.</td>
+                    </tr>
+
+                    <tr>
+                      <td>4</td>
+                      <td>Almost Certain</td>
+                      <td>Very likely. It is expected to occur in most circumstances.</td>
+                    </tr>
+
+
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+
+          <p>Select the appropriate level or criteria of impact and probability to better assess the risk. Kindly refer to the table below for the criteria.</p>
+          <p>Note: Try to itemize your risks by designating a reference number. This will be used as a basis on the next sections (VII. Recommended Privacy Solutions and VIII. Sign off and Action Plan). Also, base the risks on the violation of privacy principles, rights of data subjects and confidentiality, integrity and availability of personal data</p>
+          
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Probability</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <thead>
+                    <tr>
+                      <th>Ref#</th>
+                      <th>Threts/ Vulnerabilities</th>
+                      <th colspan="4">Impact</th>
+                      <th colspan="4">Probability </th>
+                      <th colspan="2">Risk Rating</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td></td>
+                      <td></td>
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+                      <td></td>
+                      <td></td>
+
+                    </tr>
+
+                    <tr>
+                      <td></td>
+                      <td></td>
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+                      <td></td>
+                      <td></td>
+
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+                      <td></td>
+                      <td></td>
+
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+
+                      <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+
+                      <td></td>
+                      <td></td>
+
+                    </tr>
+
+
+
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+        
+          <p>Kindly follow the formula below for getting the Risk Rating:</p>
+          <p>Risk Rating = Impact x Probability</p>
+          <p>Kindly refer to the table below for the criteria.</p>
+
+          <div class="col-12">
+            <div class="card">
+              <!-- /.card-header -->
+              <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
+                  <thead>
+                    <tr>
+                      <th>Rating</th>
+                      <th>Types</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Negligible</td>
+                    </tr>
+
+                    <tr>
+                      <td>2 to 4</td>
+                      <td>Low Risk</td>
+                    </tr>
+
+                    <tr>
+                      <td>6 to 9</td>
+                      <td>Medium Risk</td>
+                    </tr>
+
+                    <tr>
+                      <td>10 - 16</td>
+                      <td>High Risk</td>
+                    </tr>
+
+
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+
+          <p>NPC PRIVACY TOOLKIT</p>
+
+          <img src="img/NPC PTK.png" alt="Image Description" width="820" height="690">
+
 
     <form action="proceed_to_recommended_privacy_solutions" method="post">
         @csrf
