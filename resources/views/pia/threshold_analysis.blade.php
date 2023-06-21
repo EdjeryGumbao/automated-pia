@@ -50,7 +50,6 @@
         <br><button type="submit" class="btn btn-primary" value="1" name="value">Submit</button> <!-- Change value here later -->
     </form>
 
-
 @else
     <p>You have to agree.</p>
     <a href="{{ url('system_description') }}" class="btn btn-primary">Start Again</a>
