@@ -6,7 +6,6 @@
 
 @if($value == 1)
     <p>Welcome to the Privacy Impact Analysis</p>
-
     <p>Each program, project or means for collecting personal information should be tested for consistency with the following Data Privacy Principles (as identified in Rule IV, Implementing Rules and Regulations of Republic Act No. 10173, known as the “Data Privacy Act of 2012”). Respond accordingly with the questions by checking either the “Yes” or “No” column and/or listing the what the questions may indicate.</p>
 
     <table>
