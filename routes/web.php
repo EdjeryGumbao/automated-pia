@@ -24,6 +24,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('/process', [PiaController::class, 'proceed_to_process']);
+Route::post('/proceed_to_risk_assessment', [PiaController::class, 'proceed_to_risk_assessment']);
+Route::post('/proceed_to_flowchart', [PiaController::class, 'proceed_to_flowchart']);
+
 Route::get('/system_description', [PiaController::class, 'proceed_to_system_description']);
 Route::get('/proceed_to_threshold_analysis', [PiaController::class, 'proceed_to_threshold_analysis']);
 Route::post('proceed_to_threshold_analysis', [PiaController::class, 'proceed_to_threshold_analysis']);

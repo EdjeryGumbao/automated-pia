@@ -52,4 +52,21 @@ class PiaController extends Controller
         return view('pia/end_of_pia', ['value' => $value]);
     }
     
+
+
+
+
+    
+    public function proceed_to_process()
+    {   
+        return view('pia2/proceed_to_process');
+    }
+    public function proceed_to_risk_assessment()
+    {   
+        return view('pia2/proceed_to_risk_assessment');
+    }
+    public function proceed_to_flowchart()
+    {   
+        return view('pia2/proceed_to_flowchart');
+    }
 }

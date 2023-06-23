@@ -140,9 +140,13 @@
         </ul>
     </ul>
 
+
     <form action="proceed_to_privacy_impact_analysis" method="post">
         @csrf
-        <button type="submit" class="btn btn-primary" value="1" name="value">Proceed</button>
+        <label>Upload your data flow here:</label><br>
+        <input type="file" id="myFile" name="filename">
+
+        <br><button type="submit" class="btn btn-primary" value="1" name="value">Proceed</button>
     </form>
 
 @else

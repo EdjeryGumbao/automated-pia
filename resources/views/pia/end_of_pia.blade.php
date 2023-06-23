@@ -1,6 +1,6 @@
 @extends('layouts.general_layout')
 
-@section('title', 'Data Flows')
+@section('title', 'Success!')
 
 @section('content')
 
