@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 
 // Added 
 use App\Http\Controllers\PiaController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\LogoutController;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +24,10 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/home', function () {
     return view('dashboard');
 });
 
@@ -42,6 +49,15 @@ Route::post('proceed_to_recommended_privacy_solutions', [PiaController::class, '
 Route::get('/proceed_to_end', [PiaController::class, 'proceed_to_end']);
 Route::post('proceed_to_end', [PiaController::class, 'proceed_to_end']);
 
-Auth::routes();
+// Login Routes
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'login']);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Logout Route
+Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
+
+// Register Route
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('/register', [RegisterController::class, 'register']);
+
+
